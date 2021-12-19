@@ -15,7 +15,7 @@ export const GetID = ({ wishId }) => {
           <div className="box shadow mb-30">
             <div className="box__inside pt-0 pb-0">
               <Link to={`/card/${wishId}`} className="pickup__url">
-                https://christmas-card.netlify.app/card/{wishId}
+                https://your-christmas-card.netlify.app/card/{wishId}
               </Link>
               <p className="pickup__description">
                 Tento odkaz pošli emailem, přes messenger nebo ho dej na
