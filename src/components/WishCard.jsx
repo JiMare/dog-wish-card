@@ -30,18 +30,6 @@ export const WishCard = ({ wishData }) => {
 
   return (
     <div className={`background background--${wishData.background}`}>
-      <Link to="/" onClick={() => pause()}>
-        <Button
-          className={classes.btn}
-          color="primary"
-          variant="contained"
-          startIcon={<HomeIcon />}
-          endIcon={<ArrowForwardIosIcon />}
-          onClick={() => pause()}
-        >
-          Home
-        </Button>
-      </Link>
       <div className="snow">
         <Snowfall snowflakeCount={wishData.snow} />
       </div>
